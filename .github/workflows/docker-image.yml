@@ -16,9 +16,6 @@ jobs:
     runs-on: ubuntu-latest
 
     services:
-      web:
-        ports:
-          - "8000:5000"
       redis:
         image: "redis:alpine"
    
